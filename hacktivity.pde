@@ -30,6 +30,8 @@ void setup() {
   hudA.beginDraw();
   hudA.clear();
   hudA.endDraw();
+
+  initMetaData();
 }
 
 float ang=0;
@@ -41,24 +43,16 @@ void draw() {
   runSound();
   pushMatrix();
   translate(width/2, height, -400);
-// Cercle visible au lancement
+  // Cercle visible au lancement
   fill(0, 70);
   noStroke();
   ellipse(0, 0, width*1.3, width*1.3);
-// rectangle qui tourne 
-  //rectMode(CENTER);
-  //rotate(ang);
-  //ang+=0.01;
-  //fill(0, 200);
-  //rect(0, 0, width*1.3, 30);
   popMatrix();
   rectMode(CORNER);
 
-  //shape(p,0,0);    
   p.draw();
-
   parser.draw();
-  
+
   for (int i=0; i<5; i++) pluie.gen(p.p.x+random(-width, width), p.p.y-random(height/2));
   pluie.draw();
 
@@ -72,14 +66,15 @@ void draw() {
   p.draw2();
   p.drawPost();
   fires.draw();
-  
-  
+
+  drawMetaData();
+
   camera();
   imageMode(CORNER);
   image(old, 0, 0, width, height);
 
   p.startCam();
-  
+
   // ligne pour connaître position caméra au départ ?  
   //strokeWeight(0.8);
   //stroke(0);
@@ -97,16 +92,16 @@ void draw() {
 
   image(hudA, 0, 0);
 
-// carré du haut 
+  // carré du haut 
   fill(0);
   rect(10, 10, 60, 80);
-  
+
   fill(255);
   text(frameRate, 12, 20);
   text(pluie.pluie.size(), 12, 40);
   text(parser.count, 12, 60);
-  
-// barre en bas
+
+  // barre en bas
   fill(255, 40);
   noStroke();
   rect(20, height-40, map(p.energie, 0, 100, 0, 200), 20);
