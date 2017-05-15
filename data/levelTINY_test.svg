@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg data-name="Calque 1" id="Calque_1" viewBox="0 0 16489 16238.5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+		.cls-1 {
+		fill: #0000f4;
+		stroke: #000;
+		stroke-miterlimit: 10;
+		stroke-width: 2px;
+		}
+		.cls-2 {
+		isolation: isolate;
+		}
+	</style>
+    <image height="200" id="image" width="200" xlink:href="../../vectoTilesXML/data/particule.png"/>
+  </defs>
+  <title>levelTINY_test</title>
+  <rect class="cls-1" height="116.7" width="895.6" x="9284.6" y="3877.3"/>
+  <rect height="111" width="2590.3" x="7839.3" y="5685.5"/>
+  <rect height="111" width="2590.3" x="5275.5" y="5685.5"/>
+  <rect height="111" width="2590.3" x="5275.5" y="5398.7"/>
+  <rect height="111" width="2590.3" x="5275.5" y="5111.8"/>
+  <rect height="111" width="2590.3" x="5275.5" y="4825"/>
+  <rect height="111" width="2590.3" x="5275.5" y="4538.1"/>
+  <rect height="111" width="2590.3" x="5275.5" y="4251.3"/>
+  <rect height="111" width="2590.3" x="5275.5" y="3964.4"/>
+  <rect height="111" width="2590.3" x="5275.5" y="3677.6"/>
+  <rect height="111" width="2590.3" x="5275.5" y="3390.7"/>
+  <rect height="111" width="2590.3" x="5275.5" y="3103.9"/>
+  <rect height="111" width="2590.3" x="5275.5" y="2817"/>
+  <rect height="4061.7" width="111" x="15611.3" y="1724.8"/>
+  <rect height="91.1" width="1579.3" x="10668.3" y="5695.5"/>
+  <rect height="91.1" width="3363.6" x="12247.6" y="5695.5"/>
+  <rect height="233.3" width="73.9" x="9191.6" y="3877.3"/>
+  <rect height="233.3" width="73.9" x="9794.3" y="4189.3"/>
+  <rect height="151.1" width="288.9" x="10491.2" y="4070.6"/>
+  <rect data-name="&lt;Tracé&gt;" height="151.1" id="_Tracé_" width="288.9" x="10824.6" y="4070.6"/>
+  <rect height="151.1" width="288.9" x="11151.2" y="4070.6"/>
+  <rect height="151.1" id="cool" width="288.9" x="11484.6" y="4070.6"/>
+  <rect height="151.1" width="288.9" x="14200.3" y="5172"/>
+  <rect height="151.1" width="288.9" x="14533.7" y="5172"/>
+  <rect height="151.1" width="288.9" x="14860.3" y="5172"/>
+  <rect data-name="cool" height="151.1" id="cool-2" width="288.9" x="15193.7" y="5172"/>
+  <rect height="151.1" width="288.9" x="13648.4" y="4415.8"/>
+  <rect height="151.1" width="288.9" x="13981.8" y="4415.8"/>
+  <rect height="151.1" width="288.9" x="14308.4" y="4415.8"/>
+  <rect data-name="cool" height="151.1" id="cool-3" width="288.9" x="14641.8" y="4415.8"/>
+  <rect height="151.1" width="288.9" x="14344.7" y="2490.2"/>
+  <rect height="151.1" width="288.9" x="14678.1" y="2490.2"/>
+  <rect height="151.1" width="288.9" x="15004.7" y="2490.2"/>
+  <rect data-name="cool" height="151.1" id="cool-4" width="288.9" x="15338.1" y="2490.2"/>
+  <rect data-name="cool" height="151.1" id="cool-5" width="288.9" x="12111.1" y="1815.9"/>
+  <rect data-name="cool" height="151.1" id="cool-6" width="288.9" x="10635.7" y="6041"/>
+  <rect data-name="cool" height="151.1" id="cool-7" width="288.9" x="11966.6" y="1967"/>
+  <rect data-name="cool" height="151.1" id="cool-8" width="288.9" x="12111.1" y="2118.1"/>
+  <rect data-name="cool" height="151.1" id="cool-9" width="288.9" x="11966.6" y="2193.6"/>
+  <rect data-name="cool" height="151.1" id="cool-10" width="288.9" x="11974.8" y="2616.4"/>
+  <rect data-name="cool" height="151.1" id="cool-11" width="288.9" x="11974.8" y="2808.3"/>
+  <rect data-name="cool" height="151.1" id="cool-12" width="288.9" x="11974.8" y="3000.3"/>
+  <rect height="151.1" width="288.9" x="12510.6" y="3384"/>
+  <rect height="151.1" width="288.9" x="12844" y="3384"/>
+  <rect height="151.1" width="288.9" x="13170.6" y="3384"/>
+  <rect data-name="cool" height="151.1" id="cool-13" width="288.9" x="13504" y="3384"/>
+  <rect height="151.1" width="288.9" x="12890.7" y="2648.6"/>
+  <rect height="151.1" width="288.9" x="11382.7" y="1649.2"/>
+  <rect height="151.1" width="288.9" x="11034.7" y="1649.2"/>
+  <rect height="151.1" width="288.9" x="10686.7" y="1649.2"/>
+  <rect height="151.1" width="288.9" x="10338.7" y="1649.2"/>
+  <rect height="151.1" width="288.9" x="9990.7" y="1649.2"/>
+  <rect height="151.1" width="288.9" x="9998.4" y="1848.5"/>
+  <rect height="151.1" width="288.9" x="9650.5" y="1848.5"/>
+  <rect height="151.1" width="288.9" x="9302.5" y="1848.5"/>
+  <rect height="151.1" width="288.9" x="8954.5" y="1848.5"/>
+  <rect height="151.1" width="288.9" x="8606.5" y="1848.5"/>
+  <rect height="288.9" width="151.1" x="8878.9" y="2784"/>
+  <rect height="288.9" width="151.1" x="8878.9" y="2436"/>
+  <rect height="288.9" width="151.1" x="8878.9" y="2088"/>
+  <rect height="288.9" width="151.1" x="8878.9" y="1740"/>
+  <rect height="288.9" width="151.1" x="8878.9" y="1392"/>
+  <rect height="288.9" width="151.1" x="10059.6" y="1392"/>
+  <rect height="288.9" width="151.1" x="10059.6" y="1044"/>
+  <rect height="288.9" width="151.1" x="10059.6" y="696"/>
+  <rect height="288.9" width="151.1" x="10059.6" y="348"/>
+  <rect height="288.9" width="151.1" x="10059.6"/>
+  <rect height="75.5" width="144.4" x="13113.8" y="2232.4"/>
+  <rect height="151.1" width="288.9" x="13321.8" y="2724.2"/>
+  <rect height="151.1" width="288.9" x="13648.4" y="2724.2"/>
+  <rect data-name="cool" height="151.1" id="cool-14" width="288.9" x="13981.8" y="2724.2"/>
+  <rect data-name="cool" height="151.1" id="cool-15" width="288.9" x="11440.1" y="4589.7"/>
+  <rect data-name="cool" height="151.1" id="cool-16" width="288.9" x="11556.8" y="4700.7"/>
+  <rect height="151.1" width="144.5" x="9353.4" y="5022.6"/>
+  <rect height="151.1" width="144.5" x="9521.4" y="5022.6"/>
+  <rect height="151.1" width="144.5" x="9689.4" y="5022.6"/>
+  <rect height="151.1" width="144.5" x="9857.4" y="5022.6"/>
+  <rect height="151.1" width="144.5" x="9929.6" y="4714.6"/>
+  <rect height="151.1" width="144.5" x="10025.4" y="5022.6"/>
+  <rect height="151.1" width="144.5" x="10193.4" y="5022.6"/>
+  <rect height="151.1" width="288.9" x="9686.8" y="4370.6"/>
+  <rect height="233.3" width="73.9" x="9373" y="4497.3"/>
+  <rect height="151.1" width="288.9" x="9265.5" y="4678.6"/>
+  <rect height="151.1" width="288.9" x="10013.4" y="4370.6"/>
+  <rect data-name="cool" height="151.1" id="cool-17" width="288.9" x="10346.8" y="4370.6"/>
+  <rect data-name="cool" height="151.1" id="cool-18" width="288.9" x="10523.8" y="4754.2"/>
+  <rect data-name="cool" height="601" id="cool-19" width="1165.6" x="10680.1" y="5098.2"/>
+  <rect data-name="cool" height="220.3" id="cool-20" width="937.6" x="11037.2" y="4422.6"/>
+  <rect data-name="cool" height="151.1" id="cool-21" width="288.9" x="13113.8" y="5136.5"/>
+  <rect data-name="cool" height="151.1" id="cool-22" width="288.9" x="13230.5" y="5247.5"/>
+  <rect data-name="cool" height="220.3" id="cool-23" width="937.6" x="12710.9" y="4969.5"/>
+  <rect data-name="cool" height="151.1" id="cool-24" width="288.9" x="14841.4" y="3829.8"/>
+  <rect data-name="cool" height="151.1" id="cool-25" width="288.9" x="14958.2" y="3940.8"/>
+  <rect data-name="cool" height="220.3" id="cool-26" width="937.6" x="14438.5" y="3662.7"/>
+  <rect height="91.1" width="3363.6" x="12255.5" y="1724.8"/>
+  <use class="cls-2" transform="matrix(0.79, 0.61, -0.61, 0.79, 8229.79, 4789.37)" xlink:href="#image"/>
+  <rect class="cls-1" height="895.6" width="116.7" x="2483" y="5545.5"/>
+  <rect height="2590.3" width="111" x="680.4" y="4100.2"/>
+  <rect height="2590.3" width="111" x="680.4" y="1536.4"/>
+  <rect height="2590.3" width="111" x="967.3" y="1536.4"/>
+  <rect height="2590.3" width="111" x="1254.1" y="1536.4"/>
+  <rect height="2590.3" width="111" x="1541" y="1536.4"/>
+  <rect height="2590.3" width="111" x="1827.8" y="1536.4"/>
+  <rect height="2590.3" width="111" x="2114.7" y="1536.4"/>
+  <rect height="2590.3" width="111" x="2401.5" y="1536.4"/>
+  <rect height="2590.3" width="111" x="2688.4" y="1536.4"/>
+  <rect height="2590.3" width="111" x="2975.2" y="1536.4"/>
+  <rect height="2590.3" width="111" x="3262.1" y="1536.4"/>
+  <rect height="2590.3" width="111" x="3548.9" y="1536.4"/>
+  <rect height="111" width="16413.4" x="75.5" y="16127.5"/>
+  <rect height="1579.3" width="91.1" x="690.4" y="6929.2"/>
+  <rect height="3363.6" width="91.1" x="690.4" y="8508.5"/>
+  <rect height="73.9" width="233.3" x="2366.4" y="5452.5"/>
+  <rect height="73.9" width="233.3" x="2054.4" y="6055.2"/>
+  <rect height="288.9" width="151.1" x="2255.3" y="6752.1"/>
+  <rect data-name="&lt;Tracé&gt;" height="288.9" id="_Tracé_2" width="151.1" x="2255.3" y="7085.5"/>
+  <rect height="288.9" width="151.1" x="2255.3" y="7412.1"/>
+  <rect data-name="cool" height="288.9" id="cool-27" width="151.1" x="2255.3" y="7745.5"/>
+  <rect height="288.9" width="151.1" x="1153.9" y="10461.2"/>
+  <rect height="288.9" width="151.1" x="1153.9" y="10794.6"/>
+  <rect height="288.9" width="151.1" x="1153.9" y="11121.2"/>
+  <rect data-name="cool" height="288.9" id="cool-28" width="151.1" x="1153.9" y="11454.6"/>
+  <rect height="288.9" width="151.1" x="1910.1" y="9909.3"/>
+  <rect height="288.9" width="151.1" x="1910.1" y="10242.7"/>
+  <rect height="288.9" width="151.1" x="1910.1" y="10569.3"/>
+  <rect data-name="cool" height="288.9" id="cool-29" width="151.1" x="1910.1" y="10902.7"/>
+  <rect height="288.9" width="151.1" x="3835.7" y="10605.6"/>
+  <rect height="288.9" width="151.1" x="3835.7" y="10939"/>
+  <rect height="288.9" width="151.1" x="3835.7" y="11265.6"/>
+  <rect data-name="cool" height="288.9" id="cool-30" width="151.1" x="3835.7" y="11599"/>
+  <rect data-name="cool" height="288.9" id="cool-31" width="151.1" x="4510" y="8372"/>
+  <rect data-name="cool" height="288.9" id="cool-32" width="151.1" x="284.9" y="6896.6"/>
+  <rect data-name="cool" height="288.9" id="cool-33" width="151.1" x="4358.9" y="8227.5"/>
+  <rect data-name="cool" height="288.9" id="cool-34" width="151.1" x="4207.8" y="8372"/>
+  <rect data-name="cool" height="288.9" id="cool-35" width="151.1" x="4132.2" y="8227.5"/>
+  <rect data-name="cool" height="288.9" id="cool-36" width="151.1" x="3709.5" y="8235.7"/>
+  <rect data-name="cool" height="288.9" id="cool-37" width="151.1" x="3517.6" y="8235.7"/>
+  <rect data-name="cool" height="288.9" id="cool-38" width="151.1" x="3325.6" y="8235.7"/>
+  <rect height="288.9" width="151.1" x="2941.9" y="8771.5"/>
+  <rect height="288.9" width="151.1" x="2941.9" y="9104.9"/>
+  <rect height="288.9" width="151.1" x="2941.9" y="9431.5"/>
+  <rect data-name="cool" height="288.9" id="cool-39" width="151.1" x="2941.9" y="9764.9"/>
+  <rect height="288.9" width="151.1" x="3677.3" y="9151.6"/>
+  <rect height="288.9" width="151.1" x="4676.7" y="7643.6"/>
+  <rect height="288.9" width="151.1" x="4676.7" y="7295.6"/>
+  <rect height="288.9" width="151.1" x="4676.7" y="6947.6"/>
+  <rect height="288.9" width="151.1" x="4676.7" y="6599.6"/>
+  <rect height="288.9" width="151.1" x="4676.7" y="6251.6"/>
+  <rect height="288.9" width="151.1" x="4477.4" y="6259.3"/>
+  <rect height="288.9" width="151.1" x="4477.4" y="5911.4"/>
+  <rect height="288.9" width="151.1" x="4477.4" y="5563.4"/>
+  <rect height="288.9" width="151.1" x="4477.4" y="5215.4"/>
+  <rect height="288.9" width="151.1" x="4477.4" y="4867.4"/>
+  <rect height="151.1" width="288.9" x="3404.1" y="5139.8"/>
+  <rect height="151.1" width="288.9" x="3752.1" y="5139.8"/>
+  <rect height="151.1" width="288.9" x="4100.1" y="5139.8"/>
+  <rect height="151.1" width="288.9" x="4448.1" y="5139.8"/>
+  <rect height="151.1" width="288.9" x="4796.1" y="5139.8"/>
+  <rect height="151.1" width="288.9" x="4796.1" y="6320.5"/>
+  <rect height="151.1" width="288.9" x="5144.1" y="6320.5"/>
+  <rect height="151.1" width="288.9" x="5492.1" y="6320.5"/>
+  <rect height="151.1" width="288.9" x="5840.1" y="6320.5"/>
+  <rect height="144.4" width="75.5" x="4169.1" y="9374.7"/>
+  <rect height="288.9" width="151.1" x="3601.7" y="9582.7"/>
+  <rect height="288.9" width="151.1" x="3601.7" y="9909.3"/>
+  <rect data-name="cool" height="288.9" id="cool-40" width="151.1" x="3601.7" y="10242.7"/>
+  <rect data-name="cool" height="288.9" id="cool-41" width="151.1" x="1736.2" y="7701"/>
+  <rect data-name="cool" height="288.9" id="cool-42" width="151.1" x="1625.2" y="7817.7"/>
+  <rect height="144.5" width="151.1" x="1303.3" y="5614.3"/>
+  <rect height="144.5" width="151.1" x="1303.3" y="5782.3"/>
+  <rect height="144.5" width="151.1" x="1303.3" y="5950.3"/>
+  <rect height="144.5" width="151.1" x="1303.3" y="6118.3"/>
+  <rect height="144.5" width="151.1" x="1611.3" y="6190.5"/>
+  <rect height="144.5" width="151.1" x="1303.3" y="6286.3"/>
+  <rect height="144.5" width="151.1" x="1303.3" y="6454.3"/>
+  <rect height="288.9" width="151.1" x="1955.3" y="5947.7"/>
+  <rect height="73.9" width="233.3" x="1746.4" y="5633.9"/>
+  <rect height="288.9" width="151.1" x="1647.3" y="5526.4"/>
+  <rect height="288.9" width="151.1" x="1955.3" y="6274.3"/>
+  <rect data-name="cool" height="288.9" id="cool-43" width="151.1" x="1955.3" y="6607.7"/>
+  <rect data-name="cool" height="288.9" id="cool-44" width="151.1" x="1571.7" y="6784.7"/>
+  <rect data-name="cool" height="1165.6" id="cool-45" width="601" x="777.8" y="6941"/>
+  <rect data-name="cool" height="937.6" id="cool-46" width="220.3" x="1834.1" y="7298.1"/>
+  <rect data-name="cool" height="288.9" id="cool-47" width="151.1" x="1189.4" y="9374.7"/>
+  <rect data-name="cool" height="288.9" id="cool-48" width="151.1" x="1078.4" y="9491.4"/>
+  <rect data-name="cool" height="937.6" id="cool-49" width="220.3" x="1287.2" y="8971.8"/>
+  <rect data-name="cool" height="288.9" id="cool-50" width="151.1" x="2496.1" y="11102.3"/>
+  <rect data-name="cool" height="288.9" id="cool-51" width="151.1" x="2385.1" y="11219.1"/>
+  <rect data-name="cool" height="937.6" id="cool-52" width="220.3" x="2594" y="10699.4"/>
+  <rect class="cls-1" height="895.6" width="116.7" x="6980.7" y="6929.1"/>
+  <rect height="73.9" width="233.3" x="6864.1" y="6836.1"/>
+  <rect height="73.9" width="233.3" x="6552.1" y="7438.8"/>
+  <rect height="288.9" width="151.1" x="6753" y="8135.7"/>
+  <rect data-name="&lt;Tracé&gt;" height="288.9" id="_Tracé_3" width="151.1" x="6753" y="8469.1"/>
+  <rect height="288.9" width="151.1" x="6753" y="8795.7"/>
+  <rect data-name="cool" height="288.9" id="cool-53" width="151.1" x="6753" y="9129.1"/>
+  <rect height="288.9" width="151.1" x="5651.6" y="11844.8"/>
+  <rect height="288.9" width="151.1" x="5651.6" y="12178.2"/>
+  <rect height="288.9" width="151.1" x="5651.6" y="12504.8"/>
+  <rect data-name="cool" height="288.9" id="cool-54" width="151.1" x="5651.6" y="12838.2"/>
+  <rect height="288.9" width="151.1" x="6407.8" y="11292.9"/>
+  <rect height="288.9" width="151.1" x="6407.8" y="11626.3"/>
+  <rect height="288.9" width="151.1" x="6407.8" y="11952.9"/>
+  <rect data-name="cool" height="288.9" id="cool-55" width="151.1" x="6407.8" y="12286.3"/>
+  <rect height="288.9" width="151.1" x="8333.4" y="11989.2"/>
+  <rect height="288.9" width="151.1" x="8333.4" y="12322.6"/>
+  <rect height="288.9" width="151.1" x="8333.4" y="12649.2"/>
+  <rect data-name="cool" height="288.9" id="cool-56" width="151.1" x="8333.4" y="12982.6"/>
+  <rect data-name="cool" height="288.9" id="cool-57" width="151.1" x="8705.5" y="9755.6"/>
+  <rect data-name="cool" height="288.9" id="cool-58" width="151.1" x="8630" y="9611.1"/>
+  <rect data-name="cool" height="288.9" id="cool-59" width="151.1" x="8207.2" y="9619.3"/>
+  <rect data-name="cool" height="288.9" id="cool-60" width="151.1" x="8015.3" y="9619.3"/>
+  <rect data-name="cool" height="288.9" id="cool-61" width="151.1" x="7823.3" y="9619.3"/>
+  <rect height="288.9" width="151.1" x="7439.6" y="10155.1"/>
+  <rect height="288.9" width="151.1" x="7439.6" y="10488.5"/>
+  <rect height="288.9" width="151.1" x="7439.6" y="10815.1"/>
+  <rect data-name="cool" height="288.9" id="cool-62" width="151.1" x="7439.6" y="11148.5"/>
+  <rect height="288.9" width="151.1" x="8175" y="10535.2"/>
+  <rect height="144.4" width="75.5" x="8666.8" y="10758.3"/>
+  <rect height="288.9" width="151.1" x="8099.4" y="10966.3"/>
+  <rect height="288.9" width="151.1" x="8099.4" y="11292.9"/>
+  <rect data-name="cool" height="288.9" id="cool-63" width="151.1" x="8099.4" y="11626.3"/>
+  <rect data-name="cool" height="288.9" id="cool-64" width="151.1" x="6233.9" y="9084.6"/>
+  <rect data-name="cool" height="288.9" id="cool-65" width="151.1" x="6122.9" y="9201.3"/>
+  <rect height="144.5" width="151.1" x="5801" y="6997.9"/>
+  <rect height="144.5" width="151.1" x="5801" y="7165.9"/>
+  <rect height="144.5" width="151.1" x="5801" y="7333.9"/>
+  <rect height="144.5" width="151.1" x="5801" y="7501.9"/>
+  <rect height="144.5" width="151.1" x="6109" y="7574.1"/>
+  <rect height="144.5" width="151.1" x="5801" y="7669.9"/>
+  <rect height="144.5" width="151.1" x="5801" y="7837.9"/>
+  <rect height="288.9" width="151.1" x="6453" y="7331.3"/>
+  <rect height="73.9" width="233.3" x="6244.1" y="7017.5"/>
+  <rect height="288.9" width="151.1" x="6145" y="6910"/>
+  <rect height="288.9" width="151.1" x="6453" y="7657.9"/>
+  <rect data-name="cool" height="288.9" id="cool-66" width="151.1" x="6453" y="7991.3"/>
+  <rect data-name="cool" height="288.9" id="cool-67" width="151.1" x="6069.4" y="8168.3"/>
+  <rect data-name="cool" height="1165.6" id="cool-68" width="601" x="5275.5" y="8324.6"/>
+  <rect data-name="cool" height="937.6" id="cool-69" width="220.3" x="6331.8" y="8681.7"/>
+  <rect data-name="cool" height="288.9" id="cool-70" width="151.1" x="5687.1" y="10758.3"/>
+  <rect data-name="cool" height="288.9" id="cool-71" width="151.1" x="5576.1" y="10875"/>
+  <rect data-name="cool" height="937.6" id="cool-72" width="220.3" x="5784.9" y="10355.4"/>
+  <rect data-name="cool" height="288.9" id="cool-73" width="151.1" x="6993.8" y="12485.9"/>
+  <rect data-name="cool" height="288.9" id="cool-74" width="151.1" x="6882.8" y="12602.7"/>
+  <rect data-name="cool" height="937.6" id="cool-75" width="220.3" x="7091.7" y="12083"/>
+  <rect class="cls-1" height="895.6" width="116.7" x="10949.4" y="6929.1"/>
+  <rect height="73.9" width="233.3" x="10832.8" y="6836.1"/>
+  <rect height="73.9" width="233.3" x="10520.8" y="7438.8"/>
+  <rect height="288.9" width="151.1" x="10721.7" y="8135.7"/>
+  <rect data-name="&lt;Tracé&gt;" height="288.9" id="_Tracé_4" width="151.1" x="10721.7" y="8469.1"/>
+  <rect height="288.9" width="151.1" x="10721.7" y="8795.7"/>
+  <rect data-name="cool" height="288.9" id="cool-76" width="151.1" x="10721.7" y="9129.1"/>
+  <rect height="288.9" width="151.1" x="9620.3" y="11844.8"/>
+  <rect height="288.9" width="151.1" x="9620.3" y="12178.2"/>
+  <rect height="288.9" width="151.1" x="9620.3" y="12504.8"/>
+  <rect data-name="cool" height="288.9" id="cool-77" width="151.1" x="9620.3" y="12838.2"/>
+  <rect height="288.9" width="151.1" x="10376.5" y="11292.9"/>
+  <rect height="288.9" width="151.1" x="10376.5" y="11626.3"/>
+  <rect height="288.9" width="151.1" x="10376.5" y="11952.9"/>
+  <rect data-name="cool" height="288.9" id="cool-78" width="151.1" x="10376.5" y="12286.3"/>
+  <rect height="288.9" width="151.1" x="12302.1" y="11989.2"/>
+  <rect height="288.9" width="151.1" x="12302.1" y="12322.6"/>
+  <rect height="288.9" width="151.1" x="12302.1" y="12649.2"/>
+  <rect data-name="cool" height="288.9" id="cool-79" width="151.1" x="12302.1" y="12982.6"/>
+  <rect data-name="cool" height="288.9" id="cool-80" width="151.1" x="12674.2" y="9755.6"/>
+  <rect data-name="cool" height="288.9" id="cool-81" width="151.1" x="12598.6" y="9611.1"/>
+  <rect data-name="cool" height="288.9" id="cool-82" width="151.1" x="12175.9" y="9619.3"/>
+  <rect data-name="cool" height="288.9" id="cool-83" width="151.1" x="11984" y="9619.3"/>
+  <rect data-name="cool" height="288.9" id="cool-84" width="151.1" x="11792" y="9619.3"/>
+  <rect height="288.9" width="151.1" x="11408.3" y="10155.1"/>
+  <rect height="288.9" width="151.1" x="11408.3" y="10488.5"/>
+  <rect height="288.9" width="151.1" x="11408.3" y="10815.1"/>
+  <rect data-name="cool" height="288.9" id="cool-85" width="151.1" x="11408.3" y="11148.5"/>
+  <rect height="288.9" width="151.1" x="12143.7" y="10535.2"/>
+  <rect height="144.4" width="75.5" x="12635.5" y="10758.3"/>
+  <rect height="288.9" width="151.1" x="12068.1" y="10966.3"/>
+  <rect height="288.9" width="151.1" x="12068.1" y="11292.9"/>
+  <rect data-name="cool" height="288.9" id="cool-86" width="151.1" x="12068.1" y="11626.3"/>
+  <rect data-name="cool" height="288.9" id="cool-87" width="151.1" x="10202.6" y="9084.6"/>
+  <rect data-name="cool" height="288.9" id="cool-88" width="151.1" x="10091.6" y="9201.3"/>
+  <rect height="144.5" width="151.1" x="9769.7" y="6997.9"/>
+  <rect height="144.5" width="151.1" x="9769.7" y="7165.9"/>
+  <rect height="144.5" width="151.1" x="9769.7" y="7333.9"/>
+  <rect height="144.5" width="151.1" x="9769.7" y="7501.9"/>
+  <rect height="144.5" width="151.1" x="10077.7" y="7574.1"/>
+  <rect height="144.5" width="151.1" x="8629" y="7304.7"/>
+  <rect height="144.5" width="151.1" x="9769.7" y="7837.9"/>
+  <rect height="288.9" width="151.1" x="10421.7" y="7331.3"/>
+  <rect height="73.9" width="233.3" x="10212.8" y="7017.5"/>
+  <rect height="288.9" width="151.1" x="10113.7" y="6910"/>
+  <rect height="288.9" width="151.1" x="10421.7" y="7657.9"/>
+  <rect data-name="cool" height="288.9" id="cool-89" width="151.1" x="10421.7" y="7991.3"/>
+  <rect data-name="cool" height="288.9" id="cool-90" width="151.1" x="10038.1" y="8168.3"/>
+  <rect data-name="cool" height="1165.6" id="cool-91" width="601" x="9244.2" y="8324.6"/>
+  <rect data-name="cool" height="937.6" id="cool-92" width="220.3" x="10300.5" y="8681.7"/>
+  <rect data-name="cool" height="288.9" id="cool-93" width="151.1" x="9655.8" y="10758.3"/>
+  <rect data-name="cool" height="288.9" id="cool-94" width="151.1" x="9544.8" y="10875"/>
+  <rect data-name="cool" height="937.6" id="cool-95" width="220.3" x="9753.6" y="10355.4"/>
+  <rect data-name="cool" height="288.9" id="cool-96" width="151.1" x="10962.5" y="12485.9"/>
+  <rect data-name="cool" height="288.9" id="cool-97" width="151.1" x="10851.5" y="12602.7"/>
+  <rect data-name="cool" height="937.6" id="cool-98" width="220.3" x="11060.4" y="12083"/>
+  <rect height="288.9" width="151.1" x="14018.9" y="11989.2"/>
+  <rect height="288.9" width="151.1" x="14018.9" y="12322.6"/>
+  <rect height="288.9" width="151.1" x="14018.9" y="12649.2"/>
+  <rect data-name="cool" height="288.9" id="cool-99" width="151.1" x="14018.9" y="12982.6"/>
+  <rect data-name="cool" height="288.9" id="cool-100" width="151.1" x="14391" y="9755.6"/>
+  <rect data-name="cool" height="288.9" id="cool-101" width="151.1" x="14315.5" y="9611.1"/>
+  <rect data-name="cool" height="288.9" id="cool-102" width="151.1" x="13892.7" y="9619.3"/>
+  <rect data-name="cool" height="288.9" id="cool-103" width="151.1" x="13700.8" y="9619.3"/>
+  <rect data-name="cool" height="288.9" id="cool-104" width="151.1" x="13508.8" y="9619.3"/>
+  <rect height="288.9" width="151.1" x="13125.1" y="10155.1"/>
+  <rect height="288.9" width="151.1" x="13125.1" y="10488.5"/>
+  <rect height="288.9" width="151.1" x="13125.1" y="10815.1"/>
+  <rect data-name="cool" height="288.9" id="cool-105" width="151.1" x="13125.1" y="11148.5"/>
+  <rect height="288.9" width="151.1" x="13860.5" y="10535.2"/>
+  <rect height="144.4" width="75.5" x="14352.3" y="10758.3"/>
+  <rect height="288.9" width="151.1" x="13784.9" y="10966.3"/>
+  <rect height="288.9" width="151.1" x="13784.9" y="11292.9"/>
+  <rect data-name="cool" height="288.9" id="cool-106" width="151.1" x="13784.9" y="11626.3"/>
+  <rect data-name="cool" height="288.9" id="cool-107" width="151.1" x="12679.3" y="12485.9"/>
+  <rect data-name="cool" height="937.6" id="cool-108" width="220.3" x="12777.2" y="12083"/>
+  <rect height="288.9" width="151.1" x="5651.6" y="14700.8"/>
+  <rect height="288.9" width="151.1" x="5651.6" y="15034.2"/>
+  <rect height="288.9" width="151.1" x="5651.6" y="15360.8"/>
+  <rect data-name="cool" height="288.9" id="cool-109" width="151.1" x="5651.6" y="15694.2"/>
+  <rect height="288.9" width="151.1" x="6407.8" y="14148.9"/>
+  <rect height="288.9" width="151.1" x="6407.8" y="14482.3"/>
+  <rect height="288.9" width="151.1" x="6407.8" y="14808.9"/>
+  <rect data-name="cool" height="288.9" id="cool-110" width="151.1" x="6407.8" y="15142.3"/>
+  <rect height="288.9" width="151.1" x="8333.4" y="14845.2"/>
+  <rect height="288.9" width="151.1" x="8333.4" y="15178.6"/>
+  <rect height="288.9" width="151.1" x="8333.4" y="15505.2"/>
+  <rect data-name="cool" height="288.9" id="cool-111" width="151.1" x="9190" y="15034.2"/>
+  <rect data-name="cool" height="288.9" id="cool-112" width="151.1" x="8705.5" y="12611.5"/>
+  <rect height="288.9" width="151.1" x="7439.6" y="13011.1"/>
+  <rect height="288.9" width="151.1" x="7439.6" y="13344.5"/>
+  <rect height="288.9" width="151.1" x="7439.6" y="13671.1"/>
+  <rect data-name="cool" height="288.9" id="cool-113" width="151.1" x="7439.6" y="14004.5"/>
+  <rect height="288.9" width="151.1" x="8175" y="13391.2"/>
+  <rect height="144.4" width="75.5" x="8666.8" y="13614.3"/>
+  <rect height="288.9" width="151.1" x="8099.4" y="13822.3"/>
+  <rect height="288.9" width="151.1" x="8099.4" y="14148.9"/>
+  <rect data-name="cool" height="288.9" id="cool-114" width="151.1" x="8099.4" y="14482.3"/>
+  <rect data-name="cool" height="288.9" id="cool-115" width="151.1" x="5687.1" y="13614.3"/>
+  <rect data-name="cool" height="288.9" id="cool-116" width="151.1" x="5576.1" y="13731"/>
+  <rect data-name="cool" height="937.6" id="cool-117" width="220.3" x="5784.9" y="13211.4"/>
+  <rect data-name="cool" height="288.9" id="cool-118" width="151.1" x="6993.8" y="15341.9"/>
+  <rect data-name="cool" height="288.9" id="cool-119" width="151.1" x="6882.8" y="15458.7"/>
+  <rect data-name="cool" height="937.6" id="cool-120" width="220.3" x="7091.7" y="14939"/>
+  <rect height="288.9" width="151.1" x="9620.3" y="14700.8"/>
+  <rect height="288.9" width="151.1" x="9620.3" y="15034.2"/>
+  <rect height="288.9" width="151.1" x="9620.3" y="15360.8"/>
+  <rect data-name="cool" height="288.9" id="cool-121" width="151.1" x="9620.3" y="15694.2"/>
+  <rect height="288.9" width="151.1" x="10376.5" y="14148.9"/>
+  <rect height="288.9" width="151.1" x="10376.5" y="14482.3"/>
+  <rect height="288.9" width="151.1" x="10376.5" y="14808.9"/>
+  <rect data-name="cool" height="288.9" id="cool-122" width="151.1" x="10376.5" y="15142.3"/>
+  <rect height="288.9" width="151.1" x="12302.1" y="14845.2"/>
+  <rect height="288.9" width="151.1" x="12302.1" y="15178.6"/>
+  <rect height="288.9" width="151.1" x="12302.1" y="15505.2"/>
+  <rect data-name="cool" height="288.9" id="cool-123" width="151.1" x="11792" y="15341.9"/>
+  <rect data-name="cool" height="288.9" id="cool-124" width="151.1" x="12674.2" y="12611.5"/>
+  <rect height="288.9" width="151.1" x="11408.3" y="13011.1"/>
+  <rect height="288.9" width="151.1" x="11408.3" y="13344.5"/>
+  <rect height="288.9" width="151.1" x="11408.3" y="13671.1"/>
+  <rect data-name="cool" height="288.9" id="cool-125" width="151.1" x="11408.3" y="14004.5"/>
+  <rect height="288.9" width="151.1" x="12143.7" y="13391.2"/>
+  <rect height="144.4" width="75.5" x="12635.5" y="13614.3"/>
+  <rect height="288.9" width="151.1" x="12068.1" y="13822.3"/>
+  <rect height="288.9" width="151.1" x="12068.1" y="14148.9"/>
+  <rect data-name="cool" height="288.9" id="cool-126" width="151.1" x="12068.1" y="14482.3"/>
+  <rect data-name="cool" height="288.9" id="cool-127" width="151.1" x="9655.8" y="13614.3"/>
+  <rect data-name="cool" height="288.9" id="cool-128" width="151.1" x="9544.8" y="13731"/>
+  <rect data-name="cool" height="937.6" id="cool-129" width="220.3" x="9753.6" y="13211.4"/>
+  <rect data-name="cool" height="288.9" id="cool-130" width="151.1" x="10962.5" y="15341.9"/>
+  <rect data-name="cool" height="288.9" id="cool-131" width="151.1" x="10851.5" y="15458.7"/>
+  <rect data-name="cool" height="937.6" id="cool-132" width="220.3" x="11060.4" y="14939"/>
+  <rect height="288.9" width="151.1" x="14018.9" y="14845.2"/>
+  <rect height="288.9" width="151.1" x="14018.9" y="15178.6"/>
+  <rect height="288.9" width="151.1" x="14018.9" y="15505.2"/>
+  <rect data-name="cool" height="288.9" id="cool-133" width="151.1" x="16337.9" y="15828.9"/>
+  <rect data-name="cool" height="288.9" id="cool-134" width="151.1" y="15828.9"/>
+  <rect data-name="cool" height="288.9" id="cool-135" width="151.1" x="14391" y="12611.5"/>
+  <rect height="288.9" width="151.1" x="13125.1" y="13011.1"/>
+  <rect height="288.9" width="151.1" x="13125.1" y="13344.5"/>
+  <rect height="288.9" width="151.1" x="13125.1" y="13671.1"/>
+  <rect data-name="cool" height="288.9" id="cool-136" width="151.1" x="13125.1" y="14004.5"/>
+  <rect height="288.9" width="151.1" x="13860.5" y="13391.2"/>
+  <rect height="144.4" width="75.5" x="14352.3" y="13614.3"/>
+  <rect height="288.9" width="151.1" x="13784.9" y="13822.3"/>
+  <rect height="288.9" width="151.1" x="13784.9" y="14148.9"/>
+  <rect data-name="cool" height="288.9" id="cool-137" width="151.1" x="13784.9" y="14482.3"/>
+  <rect data-name="cool" height="288.9" id="cool-138" width="151.1" x="12679.3" y="15341.9"/>
+  <rect data-name="cool" height="937.6" id="cool-139" width="220.3" x="12777.2" y="14939"/>
+  <rect height="3363.6" width="91.1" x="4661.1" y="8516.4"/>
+  <use class="cls-2" transform="translate(-3034.04 -3522.19) rotate(127.79)" xlink:href="#image"/>
+</svg>
