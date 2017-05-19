@@ -6,7 +6,7 @@ class Player {
   Particules smoke;
 
   float vMax=10; // valeur init : 14
-  float accel=0.55; // valeur init : 1
+  float accel=0.5; // valeur init : 1
   float friction=0.99;
   float bound=0.5;
   float security=0.1;

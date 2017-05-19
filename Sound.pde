@@ -9,6 +9,6 @@ void initSound() {
 }
 
 void runSound(){
-  noise.amp(map(p.v.mag(),0,p.vMax,0.01,0.1));
+  //noise.amp(map(p.v.mag(),0,p.vMax,0.01,0.1));
   //println(map(p.v.mag(),0,p.vMax,0.01,0.1));
 }

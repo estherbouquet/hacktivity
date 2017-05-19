@@ -22,13 +22,12 @@ void setup() {
   part = loadImage("particuleOP.png");
   neige = loadImage("neige.png");
   
-  noCursor();
 
   smooth(2);
-
+  pluie = new Pluie();
   parser = new Parser(loadShape("levelTINY.svg"));
   p = new Player(width/2-200, height/2-200);
-  pluie = new Pluie();
+
   fires = new Fire();
 
   //initSound();
@@ -123,15 +122,16 @@ void draw() {
   fill(255, 40);
   noStroke();
   //rect(20, height-40, map(p.energie, 60, 100, 0, 200), 20);
+  
   int elapsed_time = int((millis()-start_time)/1000);
-  rect(20, height-40, map(elapsed_time, 0, 60, 0, width-100), 20);
-  if (elapsed_time >= 10) {//AU bout de 60 secondes, on demande au joueur s'il veut poursuivre sa partie
-    int confirmResult = showConfirmDialog(null, "Temps écoulé, souhaitez vous continuer à jouer ?", 
-      "Alert", ERROR_MESSAGE);
+  rect(20, height-40, map(elapsed_time, 0, 60, 0, width-20), 20);
+  if (elapsed_time >= 60) {//AU bout de 60 secondes, on demande au joueur s'il veut poursuivre sa partie
+    int confirmResult = showConfirmDialog(null, "Temps écoulé, souhaitez-vous continuer à jouer ?", 
+      "Temps écoulé !", ERROR_MESSAGE);
     if (confirmResult==YES_OPTION) {
       start_time=millis();
     } else {
-      showMessageDialog(null, printTabScore(),"Score", ERROR_MESSAGE); 
+      showMessageDialog(null, printTabScore(),"Score", PLAIN_MESSAGE); 
     }
     
   }
@@ -140,11 +140,11 @@ void draw() {
 }
 
 String printTabScore(){
-    String s = "carres: "+tabScore[0];
-    s+="\netoiles: "+tabScore[1];
-    s+="\npolygone: "+tabScore[2];
-    s+="\nrond: "+tabScore[3];
-    s+="\ntriangle: "+tabScore[4];
+    String s = "Carrés: "+tabScore[0];
+    s+="\nÉtoiles: "+tabScore[1];
+    s+="\nPolygone: "+tabScore[2];
+    s+="\nCercle: "+tabScore[3];
+    s+="\nTriangle: "+tabScore[4];
     return s;
 }
     
