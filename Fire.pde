@@ -22,7 +22,7 @@ class Fire{
 class Bullet{
   PVector p;
   PVector v;
-  float life=100;
+  float life=20;
   
   Bullet(PVector _p,PVector _v){
     this.p = new PVector(_p.x,_p.y);

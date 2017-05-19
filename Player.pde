@@ -5,8 +5,8 @@ class Player {
 
   Particules smoke;
 
-  float vMax=14;
-  float accel=1;
+  float vMax=10; // valeur init : 14
+  float accel=0.55; // valeur init : 1
   float friction=0.99;
   float bound=0.5;
   float security=0.1;
@@ -70,7 +70,7 @@ class Player {
     // On définit la couleur de l'ellipse
     smoke.draw();
 
-    fill(0);
+    fill(45,44,50, 250);
     noStroke();
     ellipse(p.x, p.y, 30, 30);
     

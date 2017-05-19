@@ -29,7 +29,8 @@ void initMetaData() {
     if (type.equals("r"))temp=metaShape[3];
     if (type.equals("t"))temp=metaShape[4];
 
-    if (temp!=null)tabMeta.add( new MetaData(temp, x, y, 50, 50) );
+
+    if (temp!=null)tabMeta.add( new MetaData(temp, x, y, 25, 25) ); //taille affichage métadonnées
   }
 }
 
@@ -68,7 +69,9 @@ class MetaData {
     if (p.camX+width>x && p.camX<x+w && p.camY+height>y && p.camY<y+h) {  
       noFill();
       stroke(0, 0, 255);
+
       //rect(x, y, w, h, 5);
+
       if (shape!=null)shape(shape, x, y, w, h);
     }
   }
