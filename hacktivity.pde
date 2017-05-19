@@ -10,7 +10,7 @@ PImage part;
 
 PGraphics hudA;
 
-int alpha=200;
+int alpha=240;
 
 void setup() {
   fullScreen(P3D);
@@ -51,7 +51,7 @@ void draw() {
   pushMatrix();
   translate(width/2, height, -400);
   // Cercle visible au lancement
-  fill(0, 70);
+  fill(45,44,50, 70);
   noStroke();
   ellipse(0, 0, width*1.3, width*1.3);
   popMatrix();

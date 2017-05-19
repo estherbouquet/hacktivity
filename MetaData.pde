@@ -28,7 +28,7 @@ void initMetaData() {
     if (type.equals("r"))temp=metaShape[3];
     if (type.equals("t"))temp=metaShape[4];
 
-    if (temp!=null)tabMeta.add( new MetaData(temp, x, y, 20, 20) ); //taille affichage métadonnées
+    if (temp!=null)tabMeta.add( new MetaData(temp, x, y, 25, 25) ); //taille affichage métadonnées
   }
 }
 

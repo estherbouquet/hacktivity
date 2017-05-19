@@ -34,7 +34,7 @@ class Part {
   }
 
   void draw() {
-    fill(0, life);
+    fill(45,44,50, life);
     //noFill();
     noStroke();
     //ellipse(p.x,p.y,t,t);

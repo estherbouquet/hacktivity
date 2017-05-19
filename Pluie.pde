@@ -31,7 +31,7 @@ class Goutte {
   }
 
   void draw() {
-    fill(0, life);
+    fill(45,44,50, life);
     noStroke();
     
     tint(255,0,0,life);
