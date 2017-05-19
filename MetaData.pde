@@ -66,8 +66,8 @@ class MetaData {
   void draw() {
     if (p.camX+width>x && p.camX<x+w && p.camY+height>y && p.camY<y+h) {  
       noFill();
-      //stroke(0, 0, 255);
-      //rect(x, y, w, h, 5);
+      stroke(0, 0, 255);
+      rect(x, y, w, h, 5);
 
       if (shape!=null)shape(shape, x, y, w, h);
     }

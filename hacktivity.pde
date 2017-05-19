@@ -10,10 +10,12 @@ PImage part;
 
 PGraphics hudA;
 
+int alpha=200;
+
 void setup() {
   fullScreen(P3D);
   frameRate(60);
-  old = loadImage("back.png");
+  old = loadImage("DEGRADE.png");
   part = loadImage("particuleOP.png");
   neige = loadImage("neige.png");
 
@@ -39,8 +41,11 @@ float ang=0;
 
 void draw() {
   background(255);
-  p.startCam();
-  runSound();
+
+  imageMode(CORNER);
+  tint(255, alpha);
+  image(old, 0, 0, width, height);
+
   pushMatrix();
   translate(width/2, height, -400);
   // Cercle visible au lancement
@@ -49,6 +54,11 @@ void draw() {
   ellipse(0, 0, width*1.3, width*1.3);
   popMatrix();
   rectMode(CORNER);
+
+  p.startCam();
+  runSound();
+
+
 
   p.draw();
   parser.draw();
@@ -70,8 +80,8 @@ void draw() {
   drawMetaData();
 
   camera();
-  imageMode(CORNER);
-  image(old, 0, 0, width, height);
+
+
 
   p.startCam();
 
@@ -91,16 +101,16 @@ void draw() {
   hudA.endDraw();
 
   image(hudA, 0, 0);
-/*
+  /*
   // carré du haut 
-  fill(0);
-  rect(10, 10, 60, 80);
-
-  fill(255);
-  text(frameRate, 12, 20);
-  text(pluie.pluie.size(), 12, 40);
-  text(parser.count, 12, 60);
-*/
+   fill(0);
+   rect(10, 10, 60, 80);
+   
+   fill(255);
+   text(frameRate, 12, 20);
+   text(pluie.pluie.size(), 12, 40);
+   text(parser.count, 12, 60);
+   */
   // barre en bas
   fill(255, 40);
   noStroke();
