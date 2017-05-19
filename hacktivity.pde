@@ -1,3 +1,5 @@
+import static javax.swing.JOptionPane.*;
+
 Parser parser;
 Player p;
 Pluie pluie;
@@ -9,6 +11,7 @@ PImage neige;
 PImage part;
 
 PGraphics hudA;
+int start_time= millis();
 
 int alpha=240;
 
@@ -26,9 +29,9 @@ void setup() {
   parser = new Parser(loadShape("levelTINY.svg"));
   p = new Player(width/2-200, height/2-200);
   pluie = new Pluie();
-  //fires = new Fire();
+  fires = new Fire();
 
-  initSound();
+  //initSound();
   hudA = createGraphics(width, height, P2D);
   hudA.noSmooth();
   hudA.beginDraw();
@@ -73,11 +76,11 @@ void draw() {
   PVector dir = p.v.copy().normalize().mult(10);
   dir.rotate(random(-0.05, 0.05));
   if (fire)fires.gen(p.p.copy(), dir);
-  //fires.draw();
+  fires.draw();
 
   p.draw2();
   p.drawPost();
-  //fires.draw();
+  fires.draw();
 
   drawMetaData();
 
@@ -103,6 +106,8 @@ void draw() {
   hudA.endDraw();
 
   image(hudA, 0, 0);
+
+
   /*
   // carré du haut 
    fill(0);
@@ -113,8 +118,33 @@ void draw() {
    text(pluie.pluie.size(), 12, 40);
    text(parser.count, 12, 60);
    */
+
   // barre en bas
   fill(255, 40);
   noStroke();
-  rect(20, height-40, map(p.energie, 0, 100, 0, 200), 20);
+  //rect(20, height-40, map(p.energie, 60, 100, 0, 200), 20);
+  int elapsed_time = int((millis()-start_time)/1000);
+  rect(20, height-40, map(elapsed_time, 0, 60, 0, width-100), 20);
+  if (elapsed_time >= 10) {//AU bout de 60 secondes, on demande au joueur s'il veut poursuivre sa partie
+    int confirmResult = showConfirmDialog(null, "Temps écoulé, souhaitez vous continuer à jouer ?", 
+      "Alert", ERROR_MESSAGE);
+    if (confirmResult==YES_OPTION) {
+      start_time=millis();
+    } else {
+      showMessageDialog(null, printTabScore(),"Score", ERROR_MESSAGE); 
+    }
+    
+  }
+  
+   
 }
+
+String printTabScore(){
+    String s = "carres: "+tabScore[0];
+    s+="\netoiles: "+tabScore[1];
+    s+="\npolygone: "+tabScore[2];
+    s+="\nrond: "+tabScore[3];
+    s+="\ntriangle: "+tabScore[4];
+    return s;
+}
+    
