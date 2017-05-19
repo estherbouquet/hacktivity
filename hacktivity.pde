@@ -18,6 +18,8 @@ void setup() {
   old = loadImage("DEGRADE.png");
   part = loadImage("particuleOP.png");
   neige = loadImage("neige.png");
+  
+  noCursor();
 
   smooth(2);
 
