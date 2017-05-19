@@ -22,7 +22,7 @@ void setup() {
   parser = new Parser(loadShape("levelTINY.svg"));
   p = new Player(width/2-200, height/2-200);
   pluie = new Pluie();
-  fires = new Fire();
+  //fires = new Fire();
 
   initSound();
   hudA = createGraphics(width, height, P2D);
@@ -61,11 +61,11 @@ void draw() {
   PVector dir = p.v.copy().normalize().mult(10);
   dir.rotate(random(-0.05, 0.05));
   if (fire)fires.gen(p.p.copy(), dir);
-  fires.draw();
+  //fires.draw();
 
   p.draw2();
   p.drawPost();
-  fires.draw();
+  //fires.draw();
 
   drawMetaData();
 
@@ -91,7 +91,7 @@ void draw() {
   hudA.endDraw();
 
   image(hudA, 0, 0);
-
+/*
   // carré du haut 
   fill(0);
   rect(10, 10, 60, 80);
@@ -100,7 +100,7 @@ void draw() {
   text(frameRate, 12, 20);
   text(pluie.pluie.size(), 12, 40);
   text(parser.count, 12, 60);
-
+*/
   // barre en bas
   fill(255, 40);
   noStroke();
