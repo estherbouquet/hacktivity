@@ -1,8 +1,9 @@
 PShape [] metaShape=new PShape[5];
 
+int [] tabScore = new int[]{0,0,0,0,0};
+
 ArrayList<MetaData> tabMeta = new ArrayList<MetaData>();
 Table table;
-String type;
 
 void initMetaData() {
   metaShape[0]=loadShape("carre.svg");
@@ -28,18 +29,18 @@ void initMetaData() {
     if (type.equals("r"))temp=metaShape[3];
     if (type.equals("t"))temp=metaShape[4];
 
-    if (temp!=null)tabMeta.add( new MetaData(temp, x, y, 20, 20) ); //taille affichage métadonnées
+    if (temp!=null)tabMeta.add( new MetaData(temp, x, y, 50, 50) );
   }
 }
 
 void drawMetaData() {
   for (int i=0; i<tabMeta.size(); i++) {
     tabMeta.get(i).draw();
-    tabMeta.get(i).insideAndKill(p.p.x, p.p.y);
+    tabMeta.get(i).insideAndKill(p.p.x,p.p.y);
   }
-
+  
   for (int i=0; i<tabMeta.size(); i++) {
-    if (tabMeta.get(i).life==false)tabMeta.remove(i);
+    if(tabMeta.get(i).life==false)tabMeta.remove(i);
   }
 }
 
@@ -66,9 +67,8 @@ class MetaData {
   void draw() {
     if (p.camX+width>x && p.camX<x+w && p.camY+height>y && p.camY<y+h) {  
       noFill();
-      //stroke(0, 0, 255);
+      stroke(0, 0, 255);
       //rect(x, y, w, h, 5);
-
       if (shape!=null)shape(shape, x, y, w, h);
     }
   }
@@ -76,6 +76,23 @@ class MetaData {
   void insideAndKill(float px, float py) {
     if (px>x && px<x+w && py>y && py<y+h) {
       life=false;
+      //NOQA
+      if (shape==metaShape[0]){
+        tabScore[0]++;
+      }
+      if (shape==metaShape[1]){
+        tabScore[1]++;
+      }
+      if (shape==metaShape[2]){
+        tabScore[2]++;
+      }
+      if (shape==metaShape[3]){
+        tabScore[3]++;
+      }
+      if (shape==metaShape[4]){
+        tabScore[4]++;
+      }
+            
     }
   }
 
@@ -85,5 +102,5 @@ class MetaData {
     } else {
       return false;
     }
-  }
+  } 
 }
