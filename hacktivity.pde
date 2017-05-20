@@ -18,7 +18,7 @@ int alpha=240;
 void setup() {
   fullScreen(P3D);
   frameRate(60);
-  old = loadImage("DEGRADE.png");
+  old = loadImage("back.png");
   part = loadImage("particuleOP.png");
   neige = loadImage("neige.png");
   

@@ -8,8 +8,8 @@ Table table;
 void initMetaData() {
   metaShape[0]=loadShape("carre.svg");
   metaShape[1]=loadShape("etoile.svg");
-  metaShape[2]=loadShape("rond.svg");
-  metaShape[3]=loadShape("polygone.svg");
+  metaShape[2]=loadShape("polygone.svg");
+  metaShape[3]=loadShape("rond.svg");
   metaShape[4]=loadShape("triangle.svg");
 
   table = loadTable("meta.csv", "header");
