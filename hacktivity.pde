@@ -30,7 +30,7 @@ void setup() {
 
   fires = new Fire();
 
-  //initSound();
+  initSound();
   hudA = createGraphics(width, height, P2D);
   hudA.noSmooth();
   hudA.beginDraw();
