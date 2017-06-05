@@ -17,6 +17,7 @@ int alpha=240;
 
 void setup() {
   fullScreen(P3D);
+  //size(800,800, P3D);
   frameRate(60);
   old = loadImage("back.png");
   part = loadImage("particuleOP.png");
@@ -50,6 +51,9 @@ void draw() {
   tint(255, alpha);
   image(old, 0, 0, width, height);
 
+  p.startCam();
+  runSound();
+
   pushMatrix();
   translate(width/2, height, -400);
   // Cercle visible au lancement
@@ -58,11 +62,6 @@ void draw() {
   ellipse(0, 0, width*1.3, width*1.3);
   popMatrix();
   rectMode(CORNER);
-
-  p.startCam();
-  runSound();
-
-
 
   p.draw();
   parser.draw();

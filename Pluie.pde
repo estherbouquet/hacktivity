@@ -34,7 +34,7 @@ class Goutte {
     fill(45,44,50, life);
     noStroke();
     
-    tint(255,0,0,life);
+    tint(0,life);
     imageMode(CENTER);
     image(neige,p.x,p.y,6,6);
     //ellipse(p.x, p.y, 3, 3);
