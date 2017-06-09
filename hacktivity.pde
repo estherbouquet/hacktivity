@@ -17,16 +17,17 @@ int alpha=240;
 
 void setup() {
   fullScreen(P3D);
-  //size(800,800, P3D);
   frameRate(60);
   old = loadImage("back.png");
   part = loadImage("particuleOP.png");
   neige = loadImage("neige.png");
   
+  noCursor();
+  
 
   smooth(2);
   pluie = new Pluie();
-  parser = new Parser(loadShape("levelTINY.svg"));
+  parser = new Parser(loadShape("MONDEcopie.svg"));
   p = new Player(width/2-200, height/2-200);
 
   fires = new Fire();
