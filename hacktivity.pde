@@ -107,7 +107,7 @@ void draw() {
   image(hudA, 0, 0);
 
 
-  /*
+  /*r
   // carré du haut 
    fill(0);
    rect(10, 10, 60, 80);
@@ -124,8 +124,8 @@ void draw() {
   //rect(20, height-40, map(p.energie, 60, 100, 0, 200), 20);
   
   int elapsed_time = int((millis()-start_time)/1000);
-  rect(20, height-40, map(elapsed_time, 0, 60, 0, width-20), 20);
-  if (elapsed_time >= 60) {//AU bout de 60 secondes, on demande au joueur s'il veut poursuivre sa partie
+  rect(20, height-40, map(elapsed_time, 0, 6000, 0, width-20), 20);
+  if (elapsed_time >= 6000) {//AU bout de 60 secondes, on demande au joueur s'il veut poursuivre sa partie
     int confirmResult = showConfirmDialog(null, "Temps écoulé, souhaitez-vous continuer à jouer ?", 
       "Temps écoulé !", ERROR_MESSAGE);
     if (confirmResult==YES_OPTION) {

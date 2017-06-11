@@ -73,6 +73,7 @@ class Player {
     fill(45,44,50, 250);
     noStroke();
     ellipse(p.x, p.y, 30, 30);
+    println("p.x =" +p.x + "p.y="+p.y);
     
     
   }
