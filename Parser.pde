@@ -4,8 +4,12 @@ class Parser {
   int count=0;
 
   Parser(PShape p) {
+    //On récupère les dimensions du fond
+    width_world=int(p.width);
+    height_world=int(p.height);
+
     tabBloc = new ArrayList<Bloc>();
-  
+
     for (int i=0; i<p.getChildCount(); i++) {
       PShape s = p.getChild(i);
       if (s.getKind() == RECT ) {
@@ -21,5 +25,5 @@ class Parser {
       tabBloc.get(i).draw();
     }
   }
-    
+
 }
