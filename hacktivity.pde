@@ -15,6 +15,10 @@ int start_time= millis();
 
 int alpha=240;
 
+int width_world=0;
+int height_world=0;
+
+
 void setup() {
   fullScreen(P3D);
   frameRate(60);
@@ -27,12 +31,12 @@ void setup() {
 
   smooth(2);
   pluie = new Pluie();
-  parser = new Parser(loadShape("MONDEcopie.svg"));
+  parser = new Parser(loadShape("levelTINY_test.svg"));
   p = new Player(width/2-200, height/2-200);
 
   fires = new Fire();
 
-  initSound();
+//  initSound();
   hudA = createGraphics(width, height, P2D);
   hudA.noSmooth();
   hudA.beginDraw();
@@ -53,7 +57,7 @@ void draw() {
   image(old, 0, 0, width, height);
 
   p.startCam();
-  runSound();
+  //runSound();
 
   pushMatrix();
   translate(width/2, height, -400);

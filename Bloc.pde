@@ -12,10 +12,10 @@ class Bloc{
   }
 
   void draw(){
-    fill(45,44,50);
-    noStroke();
     
     if(p.camX+width>x && p.camX<x+w && p.camY+height>y && p.camY<y+h){
+      fill(45,44,50);
+      noStroke();
       rect(x,y,w,h,5);
     }
   }

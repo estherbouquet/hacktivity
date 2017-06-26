@@ -1,5 +1,7 @@
 class Player {
 
+  int margin = 1000;
+
   PVector p=new PVector();
   PVector v=new PVector();
 
@@ -27,10 +29,10 @@ class Player {
     // camera(eyeX, eyeY, eyeZ, centerX, centerY, centerZ, upX, upY, upZ)
     camera(
       width/2.0+int(camX), 
-      height/2.0+int(camY), 
+      height/2.0+int(camY),
       (height/2.0) / tan(PI*30.0 / 180.0), 
-      width/2.0+int(camX), 
-      height/2.0+int(camY), 
+      width/2.0+int(camX),
+      height/2.0+int(camY),
       0, 
       0, 1, 0
       );
@@ -73,8 +75,42 @@ class Player {
     fill(45,44,50, 250);
     noStroke();
     ellipse(p.x, p.y, 30, 30);
-    println("p.x =" +p.x + "p.y="+p.y);
     
+    //teleport the player to the other bound of world
+    float delta_cam_x= p.x - camX;
+    float delta_cam_y= p.y - camY;
+    if(p.x>width_world+margin){//bord droit
+      p.x=-margin; //On envoie le joueur tout à gauche
+      camX=-margin - delta_cam_x; //On déplace la camera en gardant le même decalage entre le centre de la camera et la position du joueur
+      for (int i=0; i<this.smoke.tab.size();i++){//On translate le vecteur position de toutes les particules de fumée 
+        this.smoke.tab.get(i).p.sub(width_world+2*margin,0);
+      }
+    }
+    if(p.x <-margin){//bord gauche
+      p.x=width_world+margin;
+      camX=width_world+margin - delta_cam_x;
+      for (int i=0; i<this.smoke.tab.size();i++){
+        this.smoke.tab.get(i).p.add(width_world+2*margin,0);
+      }
+    }
+    if (p.y > height_world+margin){//bord bas
+      p.y=-margin;
+      camY=-margin - delta_cam_y;
+      for (int i=0; i<this.smoke.tab.size();i++){
+        this.smoke.tab.get(i).p.sub(0,height_world+2*margin);
+      }
+    }
+    if(p.y < -margin){//bord haut
+      p.y=height_world+margin;
+      camY=height_world+margin - delta_cam_y;
+      for (int i=0; i<this.smoke.tab.size();i++){
+        this.smoke.tab.get(i).p.add(0,p.y+margin);
+      }
+    }
+
+    //println("p.x =" +p.x + "p.y="+p.y);
+    //println("v.x =" +v.x + "v.y="+v.y);
+
     
   }
 
