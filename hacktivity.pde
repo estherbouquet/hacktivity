@@ -31,7 +31,6 @@ void setup() {
 
   smooth(2);
   pluie = new Pluie();
-  //parser = new Parser(loadShape("levelTINY_test.svg"));
   parser = new Parser(loadShape("levelTINY_test.svg"));
   p = new Player(width/2-200, height/2-200);
 

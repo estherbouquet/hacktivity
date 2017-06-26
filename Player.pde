@@ -80,9 +80,9 @@ class Player {
     float delta_cam_x= p.x - camX;
     float delta_cam_y= p.y - camY;
     if(p.x>width_world+margin){//bord droit
-      p.x=-margin;
-      camX=-margin - delta_cam_x;
-      for (int i=0; i<this.smoke.tab.size();i++){
+      p.x=-margin; //On envoie le joueur tout à gauche
+      camX=-margin - delta_cam_x; //On déplace la camera en gardant le même decalage entre le centre de la camera et la position du joueur
+      for (int i=0; i<this.smoke.tab.size();i++){//On translate le vecteur position de toutes les particules de fumée 
         this.smoke.tab.get(i).p.sub(width_world+2*margin,0);
       }
     }
