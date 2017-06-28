@@ -5,12 +5,56 @@ int [] tabScore = new int[]{0, 0, 0, 0, 0};
 ArrayList<MetaData> tabMeta = new ArrayList<MetaData>();
 Table table;
 
+final int WIDTH_METADATA = 25;
+final int HEIGHT_METADATA = 25;
+
+//Generate meta data randomly
+void createRandomMetaData(int nbMetaData) {
+  metaShape[0]=loadShape("carre.svg");
+  metaShape[1]=loadShape("etoile.svg");
+  metaShape[2]=loadShape("polygone.svg");
+  metaShape[3]=loadShape("rond.svg");
+  metaShape[4]=loadShape("triangle.svg");
+
+  int compteurMetaDataValide = 0;
+  while (compteurMetaDataValide < nbMetaData) {
+    int meta_shape = int(random(0, 5));
+    int meta_abs = 0;
+    int meta_ord = 0;
+    boolean valide = true;
+
+    do {
+      meta_abs = int(random(0, width_world));
+      meta_ord = int(random(0, height_world));
+
+      int i=0;
+      //On s'assure que la metaData n'est pas dans un bloc
+      for (i=0; i < parser.tabBloc.size(); i++) {
+        valide = !parser.tabBloc.get(i).inside(meta_abs, meta_ord, WIDTH_METADATA, HEIGHT_METADATA);//return false if md outside bloc
+        if (valide==false) break;
+      }
+
+    } while (valide==false);
+
+    tabMeta.add(new MetaData(metaShape[meta_shape], meta_abs, meta_ord, WIDTH_METADATA, HEIGHT_METADATA));
+    compteurMetaDataValide++;
+
+    //Barre de chargement qui marche po :'(
+    fill(255, 0, 0);
+    noStroke();
+    rect(20, height-40, map(compteurMetaDataValide, 0, nbMetaData, 0, width-20), 20);
+  }
+}
+
+
+
 void initMetaData() {
   metaShape[0]=loadShape("carre.svg");
   metaShape[1]=loadShape("etoile.svg");
   metaShape[2]=loadShape("polygone.svg");
   metaShape[3]=loadShape("rond.svg");
   metaShape[4]=loadShape("triangle.svg");
+
 
   table = loadTable("meta.csv", "header");
 
@@ -30,7 +74,7 @@ void initMetaData() {
     if (type.equals("t"))temp=metaShape[4];
 
 
-    if (temp!=null)tabMeta.add( new MetaData(temp, x, y, 25, 25) ); //taille affichage métadonnées
+    if (temp!=null) tabMeta.add( new MetaData(temp, x, y, WIDTH_METADATA, HEIGHT_METADATA));
   }
 }
 
@@ -78,6 +122,7 @@ class MetaData {
   void insideAndKill(float px, float py) {
     if (px>x && px<x+w && py>y && py<y+h) {
       life=false;
+      tabMeta.remove(this);
       //NOQA
       if (shape==metaShape[0]) {
         tabScore[0]++;

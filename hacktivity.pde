@@ -18,8 +18,10 @@ int alpha=240;
 int width_world=0;
 int height_world=0;
 
-int abs_spawn_player=960;
-int ord_spawn_player=540;
+final int ABS_SPAWN_PLAYER=960;
+final int ORD_SPAWN_PLAYER=540;
+
+final int NB_METADATA = 10000;//number of metada to generate
 
 
 void setup() {
@@ -36,7 +38,7 @@ void setup() {
   pluie = new Pluie();
   parser = new Parser(loadShape("levelTINY_test.svg"));
   //p = new Player(width/2-200, height/2-200); 
-  p = new Player(abs_spawn_player,ord_spawn_player);//Ainsi le spawn du joueur ne dépend plus de la résolution de l'écran
+  p = new Player(ABS_SPAWN_PLAYER,ORD_SPAWN_PLAYER);//Ainsi le spawn du joueur ne dépend plus de la résolution de l'écran
 
   fires = new Fire();
 
@@ -47,7 +49,9 @@ void setup() {
   hudA.clear();
   hudA.endDraw();
 
-  initMetaData();
+  //initMetaData();
+  createRandomMetaData(NB_METADATA);
+
 }
 
 float ang=0;
@@ -68,7 +72,7 @@ void draw() {
   // Cercle visible au lancement
   fill(45,44,50, 70);
   noStroke();
-  ellipse(abs_spawn_player, ord_spawn_player, width*0.8, width*0.8);
+  ellipse(ABS_SPAWN_PLAYER, ORD_SPAWN_PLAYER, width*0.8, width*0.8);
   popMatrix();
   rectMode(CORNER);
 
@@ -126,6 +130,7 @@ void draw() {
    //text(parser.count, 12, 60);
    text(p.p.x, 12,20);
    text(p.p.y, 12,40);
+   text(tabMeta.size(), 12, 60);
    
 
   // barre en bas
