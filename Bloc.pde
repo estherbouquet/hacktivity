@@ -12,10 +12,10 @@ class Bloc{
   }
 
   void draw(){
-    fill(45,44,50);
-    noStroke();
     
     if(p.camX+width>x && p.camX<x+w && p.camY+height>y && p.camY<y+h){
+      fill(45,44,50);
+      noStroke();
       rect(x,y,w,h,5);
     }
   }
@@ -28,4 +28,13 @@ class Bloc{
     }
   }
   
+  //need this one to be sure that md won't overlay bloc
+  boolean inside(float mdx, float mdy, float mdw, float mdh){
+    if(mdx+mdw >= this.x && mdx <this.x+this.w && mdy+mdh > this.y && mdy < this.y + this.h){
+      return true;
+    } else{
+      return false;
+    }
+  }
+
 }

@@ -15,6 +15,15 @@ int start_time= millis();
 
 int alpha=240;
 
+int width_world=0;
+int height_world=0;
+
+final int ABS_SPAWN_PLAYER=960;
+final int ORD_SPAWN_PLAYER=540;
+
+final int NB_METADATA = 10000;//number of metada to generate
+
+
 void setup() {
   fullScreen(P3D);
   frameRate(60);
@@ -27,19 +36,22 @@ void setup() {
 
   smooth(2);
   pluie = new Pluie();
-  parser = new Parser(loadShape("MONDEcopie.svg"));
-  p = new Player(width/2-200, height/2-200);
+  parser = new Parser(loadShape("levelTINY_test.svg"));
+  //p = new Player(width/2-200, height/2-200); 
+  p = new Player(ABS_SPAWN_PLAYER,ORD_SPAWN_PLAYER);//Ainsi le spawn du joueur ne dépend plus de la résolution de l'écran
 
   fires = new Fire();
 
-  initSound();
+//  initSound();
   hudA = createGraphics(width, height, P2D);
   hudA.noSmooth();
   hudA.beginDraw();
   hudA.clear();
   hudA.endDraw();
 
-  initMetaData();
+  //initMetaData();
+  createRandomMetaData(NB_METADATA);
+
 }
 
 float ang=0;
@@ -53,14 +65,14 @@ void draw() {
   image(old, 0, 0, width, height);
 
   p.startCam();
-  runSound();
+  //runSound();
 
   pushMatrix();
-  translate(width/2, height, -400);
+  //translate(width/2, height, -400);Responsable du mouvement du cercle
   // Cercle visible au lancement
   fill(45,44,50, 70);
   noStroke();
-  ellipse(0, 0, width*1.3, width*1.3);
+  ellipse(ABS_SPAWN_PLAYER, ORD_SPAWN_PLAYER, width*0.8, width*0.8);
   popMatrix();
   rectMode(CORNER);
 
@@ -107,16 +119,19 @@ void draw() {
   image(hudA, 0, 0);
 
 
-  /*r
+  
   // carré du haut 
    fill(0);
    rect(10, 10, 60, 80);
    
    fill(255);
-   text(frameRate, 12, 20);
-   text(pluie.pluie.size(), 12, 40);
-   text(parser.count, 12, 60);
-   */
+   //text(frameRate, 12, 20);
+   //text(pluie.pluie.size(), 12, 40);
+   //text(parser.count, 12, 60);
+   text(p.p.x, 12,20);
+   text(p.p.y, 12,40);
+   text(tabMeta.size(), 12, 60);
+   
 
   // barre en bas
   fill(255, 40);
