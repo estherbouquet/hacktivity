@@ -167,53 +167,48 @@ class Player {
       }
     }
   }
-
-  
-    
-    
-  }
-
-  /*
-  void collide(ArrayList<Bloc> t) {//Trop de parcours
-   
-   for (int i=0; i<t.size(); i++) {
-   if (t.get(i).inside(p.x, p.y+10)) {
-   v.y*=-bound;
-   v.mult(0.85);
-   energie++;
-   }
-   while (t.get(i).inside(p.x, p.y+10)) {
-   p.y-=security;
-   }
-   }
-   
-   for (int i=0; i<t.size(); i++) {
-   if (t.get(i).inside(p.x, p.y-10)) {  
-   v.y*=-bound;
-   }
-   while (t.get(i).inside(p.x, p.y-10)) {
-   p.y+=security;
-   }
-   }
-   
-   for (int i=0; i<t.size(); i++) {
-   if (t.get(i).inside(p.x+10, p.y)) {
-   v.x*=-bound;
-   }
-   while (t.get(i).inside(p.x+10, p.y)) {
-   p.x-=security;
-   }
-   }
-   
-   for (int i=0; i<t.size(); i++) {
-   if (t.get(i).inside(p.x-10, p.y)) {
-   v.x*=-bound;
-   }
-   while (t.get(i).inside(p.x-10, p.y)) {
-   p.x+=security;
-   }
-   }
-   
-   //-----------------------------------------------
-   }*/
 }
+
+/*
+  void collide(ArrayList<Bloc> t) {//Trop de parcours
+ 
+ for (int i=0; i<t.size(); i++) {
+ if (t.get(i).inside(p.x, p.y+10)) {
+ v.y*=-bound;
+ v.mult(0.85);
+ energie++;
+ }
+ while (t.get(i).inside(p.x, p.y+10)) {
+ p.y-=security;
+ }
+ }
+ 
+ for (int i=0; i<t.size(); i++) {
+ if (t.get(i).inside(p.x, p.y-10)) {  
+ v.y*=-bound;
+ }
+ while (t.get(i).inside(p.x, p.y-10)) {
+ p.y+=security;
+ }
+ }
+ 
+ for (int i=0; i<t.size(); i++) {
+ if (t.get(i).inside(p.x+10, p.y)) {
+ v.x*=-bound;
+ }
+ while (t.get(i).inside(p.x+10, p.y)) {
+ p.x-=security;
+ }
+ }
+ 
+ for (int i=0; i<t.size(); i++) {
+ if (t.get(i).inside(p.x-10, p.y)) {
+ v.x*=-bound;
+ }
+ while (t.get(i).inside(p.x-10, p.y)) {
+ p.x+=security;
+ }
+ }
+ 
+ //-----------------------------------------------
+ }*/

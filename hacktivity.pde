@@ -21,7 +21,7 @@ int height_world=0;
 final int ABS_SPAWN_PLAYER=960;
 final int ORD_SPAWN_PLAYER=540;
 
-final int NB_METADATA = 10000;//number of metada to generate
+final int NB_METADATA = 100;//number of metada to generate
 
 
 void setup() {
