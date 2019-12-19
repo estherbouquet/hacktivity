@@ -34,6 +34,11 @@ void createRandomMetaData(int nbMetaData) {
         if (valide==false) break;
       }
 
+      for (i=0; i < tabMeta.size()&&valide; i++) {
+        valide = !tabMeta.get(i).inside(meta_abs, meta_ord, WIDTH_METADATA, HEIGHT_METADATA);//return false if md do not overlay each other
+        if (valide==false) break;
+      }
+
     } while (valide==false);
 
     tabMeta.add(new MetaData(metaShape[meta_shape], meta_abs, meta_ord, WIDTH_METADATA, HEIGHT_METADATA));
@@ -146,6 +151,14 @@ class MetaData {
     if (px>x && px<x+w && py>y && py<y+h) {
       return true;
     } else {
+      return false;
+    }
+  }
+
+  boolean inside(float mdx, float mdy, float mdw, float mdh){
+    if(mdx+mdw >= this.x && mdx <this.x+this.w && mdy+mdh > this.y && mdy < this.y + this.h){
+      return true;
+    } else{
       return false;
     }
   }
